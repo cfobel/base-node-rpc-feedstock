@@ -44,6 +44,8 @@ install:
     - cmd: conda config --remove channels defaults
     - cmd: conda config --add channels defaults
     - cmd: conda config --add channels conda-forge
+    - cmd: conda config --add channels wheeler-microfluidics
+    - cmd: conda config --add channels sci-bots
 
     # Configure the VM.
     - cmd: conda install -n root --quiet --yes conda-forge-build-setup
