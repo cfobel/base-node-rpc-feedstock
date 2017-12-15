@@ -8,8 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ version }}.tar.gz
-  url: https://github.com/{{ github_user }}/{{ name }}/archive/v{{ version }}.tar.gz
+  git_url: https://github.com/{{ github_user }}/{{ name }}
+  git_rev: v{{ version }}
 
 requirements:
   build:
