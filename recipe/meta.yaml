@@ -1,5 +1,5 @@
 {% set name = "base-node-rpc" %}
-{% set version = "0.35.1" %}
+{% set version = "0.36" %}
 {% set github_user = "sci-bots" %}
 {% set license = "MIT" %}
 
